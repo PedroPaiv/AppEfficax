@@ -110,15 +110,6 @@ type
     lbEmail: TLabel;
     spbTel: TSpeedButton;
     spbEmail: TSpeedButton;
-    ListBoxItem11: TListBoxItem;
-    Label5: TLabel;
-    Switch1: TSwitch;
-    Label6: TLabel;
-    Switch2: TSwitch;
-    Label15: TLabel;
-    Switch3: TSwitch;
-    ListBoxItem14: TListBoxItem;
-    edtCdIbge: TEdit;
     procedure spbEndClick(Sender: TObject);
     procedure spbEndeClick(Sender: TObject);
     procedure spbDocClick(Sender: TObject);

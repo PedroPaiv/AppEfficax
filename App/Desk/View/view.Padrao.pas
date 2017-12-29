@@ -25,7 +25,7 @@ type
     tbiLista: TTabItem;
     tbiFormulario: TTabItem;
     ToolBar2: TToolBar;
-    ListView1: TListView;
+    lvCadastros: TListView;
     StyleBook1: TStyleBook;
     lbTitulo: TLabel;
     spbSalv: TSpeedButton;
@@ -45,7 +45,7 @@ type
     tbiBusca: TTabItem;
     tbiMensagem: TTabItem;
     recMensagem: TRectangle;
-    procedure ListView1ItemClick(const Sender: TObject;
+    procedure lvCadastrosItemClick(const Sender: TObject;
       const AItem: TListViewItem);
     procedure spbEdtClick(Sender: TObject);
     procedure spbSalvClick(Sender: TObject);
@@ -144,7 +144,7 @@ begin
 end;
 
 
-procedure TfrmCadPadrao.ListView1ItemClick(const Sender: TObject;
+procedure TfrmCadPadrao.lvCadastrosItemClick(const Sender: TObject;
   const AItem: TListViewItem);
 begin
  ctaFormulario.Execute;

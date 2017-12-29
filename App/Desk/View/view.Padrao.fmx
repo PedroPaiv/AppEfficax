@@ -227,7 +227,7 @@ object frmCadPadrao: TfrmCadPadrao
             Text = 'SpeedButton7'
           end
         end
-        object ListView1: TListView
+        object lvCadastros: TListView
           ItemAppearanceClassName = 'TListItemAppearance'
           ItemEditAppearanceClassName = 'TListItemShowCheckAppearance'
           HeaderAppearanceClassName = 'TListHeaderObjects'
@@ -241,7 +241,7 @@ object frmCadPadrao: TfrmCadPadrao
           Size.Height = 368.000000000000000000
           Size.PlatformDefault = False
           TabOrder = 1
-          OnItemClick = ListView1ItemClick
+          OnItemClick = lvCadastrosItemClick
         end
       end
       object tbiFormulario: TTabItem

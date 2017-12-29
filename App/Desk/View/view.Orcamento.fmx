@@ -395,8 +395,8 @@ inherited frmOrcamento: TfrmOrcamento
             DefaultItemStyles.ItemStyle = ''
             DefaultItemStyles.GroupHeaderStyle = ''
             DefaultItemStyles.GroupFooterStyle = ''
-            Viewport.Width = 268.000000000000000000
-            Viewport.Height = 57.000000000000000000
+            Viewport.Width = 272.000000000000000000
+            Viewport.Height = 107.000000000000000000
             object ListBoxItem8: TListBoxItem
               Size.Width = 268.000000000000000000
               Size.Height = 50.000000000000000000

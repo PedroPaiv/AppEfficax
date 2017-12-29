@@ -51,7 +51,7 @@ inherited frmCadPessoa: TfrmCadPessoa
             Position.X = 734.000000000000000000
           end
         end
-        inherited ListView1: TListView
+        inherited lvCadastros: TListView
           Size.Width = 770.000000000000000000
           Size.Height = 587.000000000000000000
         end

@@ -52533,7 +52533,6 @@ object frmMain: TfrmMain
     Size.Width = 250.000000000000000000
     Size.Height = 640.000000000000000000
     Size.PlatformDefault = False
-    Visible = False
     TabOrder = 1
     object ListBox1: TListBox
       Align = Client
